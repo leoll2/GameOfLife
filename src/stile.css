@@ -1,0 +1,108 @@
+.button{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 80px;
+    -fx-min-height: 30px;
+    -fx-background-color: #728432;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 4px;
+}
+
+.label{
+    -fx-text-fill: #5e6d2a;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.titolo{
+    -fx-font-size: 25px;
+    -fx-text-fill: #4f600e;
+    -fx-font-family: Palatino;
+    -fx-font-style: italic;
+}
+
+.text-field{
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-background-color: #f0f7e8;
+    -fx-border-color: #728432;
+    -fx-border-radius: 3px;
+    -fx-text-fill: #4f600e;
+}
+
+.input-lungo{
+    -fx-min-width: 200px;
+    -fx-max-width: 200px;
+}
+
+.slider .thumb {
+    -fx-background-color: #728432;
+}
+
+.slider .track {
+    -fx-control-inner-background: #9eb745;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: #5e6d2a;
+    -fx-tick-label-font-size: 10px;
+    -fx-tick-label-font-weight: bold;
+}
+
+.check-box .box {
+    -fx-background-color: #f0f7e8;
+    -fx-border-color: #728432;
+    -fx-border-radius:3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #728432;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #728432;
+}
+
+.table-view .column-header-background .label {
+    -fx-background-color: #728432;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #4f600e;
+    -fx-border-color: #728432;
+}
+
+.table-view .filler {
+    -fx-background-color: #728432;
+}
+
+.table-view .scroll-bar {
+    -fx-background-color: #728432;
+}
+
+.table-row-cell {
+    -fx-background-color: #ddedc9;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #d2edb1;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e3fc92;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configurazioneXML.xml -->
+<ParametriConfigurazione>
+    <dimensioni unita="celle">
+        <larghezza valori="interi">
+            <default>25</default>
+            <minima>5</minima>
+            <massima>150</massima>
+        </larghezza>
+        <altezza valori="interi">
+            <default>25</default>
+            <minima>5</minima>
+            <massima>100</massima>
+        </altezza>
+    </dimensioni>
+    <velocita unita="fps" valori="reali">
+        <default>3.0</default>
+        <minima>1.0</minima>
+        <massima>10.0</massima>
+    </velocita>
+    <connettivita>
+        <nomeUtente>Leonardo</nomeUtente>
+        <IPClient>localhost</IPClient>
+        <IPServer>localhost</IPServer>
+        <portaServer>11997</portaServer>
+    </connettivita>
+</ParametriConfigurazione>

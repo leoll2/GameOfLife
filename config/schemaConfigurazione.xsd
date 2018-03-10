@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- schemaConfigurazione.xsd -->
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ParametriConfigurazione">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="dimensioni">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="larghezza">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="default" type="xs:int"/>
+                                        <xs:element name="minima" type="xs:int"/>
+                                        <xs:element name="massima" type="xs:int"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="valori"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="altezza">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="default" type="xs:int"/>
+                                        <xs:element name="minima" type="xs:int"/>
+                                        <xs:element name="massima" type="xs:int"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="valori"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                        <xs:attribute type="xs:string" name="unita"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="velocita">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="default" type="xs:decimal"/>
+                            <xs:element name="minima" type="xs:decimal"/>
+                            <xs:element name="massima" type="xs:decimal"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="valori"/>
+                        <xs:attribute type="xs:string" name="unita"/>
+                    </xs:complexType>
+                </xs:element>        
+                <xs:element name="connettivita">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nomeUtente" type="xs:string"/>
+                            <xs:element name="IPClient" type="xs:string"/>
+                            <xs:element name="IPServer" type="xs:string"/>
+                            <xs:element name="portaServer" type="xs:int"/>
+                        </xs:all>
+                    </xs:complexType>   
+                </xs:element>             
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
